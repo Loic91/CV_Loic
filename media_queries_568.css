@@ -1,0 +1,58 @@
+﻿@media screen and (max-width: 568px) {
+    body {
+        width: auto;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    header {
+        flex-direction: column;
+    }
+
+    #photo {
+        width: 100%;
+        padding: 2% 0 2% 0;
+    }
+
+    #titre {
+        width: 90%;
+        text-align: center;
+        margin-top: -30px;
+        margin-bottom: 10px;
+    }
+
+    #bloc_gauche {
+        width: 100%;
+    }
+
+    #bloc_droit {
+        width: 100%;
+    }
+
+    main {
+        flex-direction: column-reverse;
+    }
+
+    #loisirs {
+        padding-top: 0;
+        padding-bottom: 25px;
+    }
+
+    h3 {
+        font-size: 1.3em;
+    }
+
+    address {
+        text-align: center;
+    }
+
+    #recommandation {
+        margin-left: 45px;
+        margin-right: 45px;
+    }
+
+    #photo_loic {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}

@@ -1,0 +1,186 @@
+﻿body {
+    width: 750px;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border: 1px black solid;
+    font-family: 'Roboto', sans-serif;
+}
+
+#titre{
+    width: 65%;
+    line-height: 110%;
+}
+
+.titre_1 {
+    color: #FFC733;
+    font-weight: bold;
+}
+
+.titre_2 {
+    /* <span> Demi ligne sous le mot "développeur"*/
+    text-decoration: underline;
+    text-decoration-color: #FFC733;
+    text-underline-position: under; /*"under" a permis de pousser la ligne légèrement plus bas*/
+}
+
+.titre_3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#photo {
+    width: 35%;
+    background-color: #FFC733;
+}
+
+/*Forme arrondie de la photo*/
+#photo_loic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: auto;
+    border: 2px #B0830D solid;
+    margin-top: 40px;
+}
+
+h1{
+font-size: 250%;
+padding: 10% 0 0 9%;
+font-weight: lighter;
+}
+
+h2 {
+    padding-left: 9%;
+    letter-spacing: 2px; /*Espace entre chaque lettre*/
+    font-size: 1em;
+    color: #575654;
+}
+
+header{
+    display: flex;
+}
+
+main{
+    display: flex;
+}
+
+p{
+    font-size: 0.7em;
+}
+
+h6 {
+    margin-top: -10px;
+    margin-bottom: 2px;
+}
+
+h4{
+    margin-top: 20px;
+}
+
+#loisirs i {
+    font-size: 1.4em;
+}
+
+/*!!!!!!!!! BLOC DE GAUCHE !!!!!!!!!*/
+#bloc_gauche {
+    width: 35%;
+    background-color: #FFC733;
+}
+
+h5 {
+    color: #FFC733;
+    text-align: center;
+    font-size: 1.2em;
+    padding-bottom: 8px;
+    padding-top: 8px;
+}
+
+.surligne {
+    background-color: #575654;
+}
+
+/*Sélection des icones comprises dans la section "Loisirs"*/
+#icones i {
+    color: #575654;
+}
+
+.puce i{
+    font-size: 6px;
+}
+
+
+#icones {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+address{
+    margin-left: 30px;
+    margin-right: 30px;
+    font-style: normal;
+}
+
+#informations {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+#loisirs{
+    padding-top: 450px;
+
+}
+
+/*!!!!!!!!!!!!! BLOC DE DROITE !!!!!!!!!!!!*/
+#bloc_droit {
+    width: 65%;
+    padding: 3.5% 0 2% 0;
+    color: #575654;
+}
+
+.puce {
+    padding-left: 30px;
+    margin: 4% 1% 0 5%;
+}
+
+.puce_1 {
+    padding-left: 30px;
+    margin: 4% 1% 0 5%;
+}
+
+
+
+.mise_en_page {
+    display: flex;
+    width: 89%;
+}
+
+/*Logo près de chaque titre*/
+i {
+    color: #FFC733;
+    padding-right: 20px; /*marge entre le logo et le titre*/
+}
+
+.annee{
+    margin: 1% 0 0 2%;
+}
+
+.etablissement {
+    padding-left: 15%;
+    width: 120%;
+}
+
+/*Ligne en-dessous de chaque titre*/
+h3 {
+    border-bottom: 2px #FFC733 solid;
+    margin-left: 48px;
+    margin-right: 50px;
+    padding-bottom: 10px;
+}
+
+#recommandation{
+    display: flex;
+    justify-content: space-around;
+}
