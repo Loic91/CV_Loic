@@ -1,0 +1,21 @@
+﻿@media screen and (max-width: 320px) {
+    body {
+        width: auto;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    h1{
+        font-size: 220%;
+    }
+
+    .annee {
+        margin: 2% 0 0 -3%;
+        width: 19%;
+    }
+
+    .etablissement {
+        padding-left: 15%;
+        width: 80%;
+    }
+}

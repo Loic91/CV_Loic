@@ -57,11 +57,7 @@ h2 {
     color: #575654;
 }
 
-header{
-    display: flex;
-}
-
-main{
+header, main{
     display: flex;
 }
 
@@ -103,6 +99,9 @@ h5 {
 /*Sélection des icones comprises dans la section "Loisirs"*/
 #icones i {
     color: #575654;
+    font-size: 30px;
+    margin-left: 4px;
+    margin-top: 7px;
 }
 
 .puce i{
@@ -129,8 +128,17 @@ address{
 }
 
 #loisirs{
-    padding-top: 450px;
+    padding-top: 500px;
 
+}
+
+/* "Cercle" qui entoure les icones Loisirs*/
+.icone {
+    background: #FFC733;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    border: 2px solid #575654;
 }
 
 /*!!!!!!!!!!!!! BLOC DE DROITE !!!!!!!!!!!!*/
@@ -150,8 +158,6 @@ address{
     margin: 4% 1% 0 5%;
 }
 
-
-
 .mise_en_page {
     display: flex;
     width: 89%;
@@ -164,12 +170,13 @@ i {
 }
 
 .annee{
-    margin: 1% 0 0 2%;
+    margin: 1% 0 0 -3%;
+    width: 80%;
 }
 
 .etablissement {
     padding-left: 15%;
-    width: 120%;
+    width: 95%;
 }
 
 /*Ligne en-dessous de chaque titre*/

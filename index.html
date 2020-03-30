@@ -3,10 +3,11 @@
 <html lang="fr-fr" xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <meta name="viewport" content="width=device-width, user-scalable=yes">
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="media_queries_568.css" />
     <link rel="stylesheet" href="media_queries_768.css" />
+    <link rel="stylesheet" href="media_queries_320.css" />
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/78f1dc1fad.js" crossorigin="anonymous"></script>
@@ -15,15 +16,15 @@
 <body>
     <div id="bloc_page">
         <header>
-            <section id="photo">
+            <div id="photo">
                 <div id="photo_loic">
                     <img src="images/photo_de_moi_150.jpg" alt="photo de Loic" id="taille_photo">
                 </div>
-            </section>
-            <section id="titre">
+            </div>
+            <div id="titre">
                 <h1><span class="titre_1">LOÏC</span> <span class="titre_3">BRIJAWI</span></h1>
                 <h2><span class="titre_2">Dével</span>oppeur web</h2>
-            </section>
+            </div>
         </header>
         <main>
             <div id="bloc_gauche">
@@ -52,12 +53,15 @@
                     <div class="surligne">
                         <h5>À propos de moi</h5>
                     </div>
-                    <section id="informations">
+                    <div id="informations">
                         <p>
-                            Dum apud Persas, ut supra narravimus, perfidia regis motus agitat insperatos, et in eois tractibus bella rediviva consurgunt, anno sexto decimo et eo diutius post Nepotiani exitium, saeviens per urbem aeternam urebat cuncta Bellona, ex primordiis minimis ad clades excita luctuosas, quas obliterasset utinam iuge silentium! ne forte paria quandoque temptentur, plus exemplis generalibus nocitura quam delictis.
-
+                            Actuellement responsable d'une boutique de prêt-à-porter à Paris, je suis également en reconversion professionnelle dans le secteur du développement web. 
+                            <br/>
+                            <br/>Autodidacte, j'ai créé un site internet avec Wordpress en utilisant notamment les multiples "plugins" disponibles sur cette plateforme.<br/>Ce premier pas dans l'univers du web m'a permis de comprendre vers où je souhaite diriger ma carrière professionnelle. 
+                            <br/>
+                            <br/>La formation de développeur web me permettra d'acquérir les compétences et le diplôme necessaire pour exercer ce métier.
                         </p>
-                    </section>
+                    </div>
                 </section>
                 <section id="loisirs">
                     <div class="surligne">
@@ -73,13 +77,14 @@
                             </i>
                         </div>
                         <div class="icone">
-                            <i class="fas fa-palette">
+                            <i class="fas fa-table-tennis">
                             </i>
                         </div>
                     </div>
                 </section>
             </div>
             <div id="bloc_droit">
+
                 <h3>
                     <i class="fas fa-graduation-cap fa-lg">
                     </i>
@@ -93,9 +98,11 @@
                         </div>
                         <div class="annee">
                             <p>
-                                2020
-                                <br />
-                                Paris
+                                <strong>
+                                    2020
+                                    <br />
+                                    Paris
+                                </strong>
                             </p>
                         </div>
                         <div class="etablissement">
@@ -103,7 +110,7 @@
                             <h6>Développpeur web</h6>
                             <div class="taches">
                                 <p>
-                                    Ante sumenda iis novit loquimur vel habeat qui proxime sunt si vitii exempla si et quos quidem res nihil sunt aut habeat eorum aut vita sed et habeat Ex si.
+                                    Apprentissage des techniques et des languages de développement web, tel que HTML, CSS et JavaScript. 
                                 </p>
                             </div>
                         </div>
@@ -116,9 +123,11 @@
                         </div>
                         <div class="annee">
                             <p>
-                                2007
-                                <br />
-                                Paris
+                                <strong>
+                                    2006 - 2007
+                                    <br />
+                                    Paris
+                                </strong>
                             </p>
                         </div>
                         <div class="etablissement">
@@ -126,7 +135,7 @@
                             <h6>BTS Management des unités commerciales</h6>
                             <div class="taches">
                                 <p>
-                                    Ante sumenda iis novit loquimur vel habeat qui proxime sunt si vitii exempla si et quos quidem res nihil sunt aut habeat eorum aut vita sed et habeat Ex si.
+                                    Apprentissage de la gestion d'unités commerciales et de la mise en place d'opérations marketing dans des petites et moyennes structures.
                                 </p>
                             </div>
                         </div>
@@ -138,9 +147,11 @@
                         </div>
                         <div class="annee">
                             <p>
-                                2006
-                                <br />
-                                Paris
+                                <strong>
+                                    2004 - 2006
+                                    <br />
+                                    Paris
+                                </strong>
                             </p>
                         </div>
                         <div class="etablissement">
@@ -148,7 +159,7 @@
                             <h6>BAC Professionnel Commerce</h6>
                             <div class="taches">
                                 <p>
-                                    Ante sumenda iis novit loquimur vel habeat qui proxime sunt si vitii exempla si et quos quidem res nihil sunt aut habeat eorum aut vita sed et habeat Ex si.
+                                    Apprentissage sur la tenue d'un établissement commerciale et mise en place d'opérations marketing sur l'espace de vente.
                                 </p>
                             </div>
                         </div>
@@ -167,17 +178,21 @@
                         </div>
                         <div class="annee">
                             <p>
-                                Depuis 2012
-                                <br />
-                                Paris
+                                <strong>
+                                    Depuis 2012 - Poste actuel
+                                    <br />
+                                    Paris
+                                </strong>
                             </p>
                         </div>
                         <div class="etablissement">
                             <h4>LA STATION</h4>
                             <h6>Responsable de magasin</h6>
                             <div class="taches">
-                                <p>
-                                    Ante sumenda iis novit loquimur vel habeat qui proxime sunt si vitii exempla si et quos quidem res nihil sunt aut habeat eorum aut vita sed et habeat Ex si.
+                                <p>Accueillir, conseiller et fidéliser la clientele
+                                    <br/>Piloter des projets d'actions commerciales
+                                    <br/>Effectuer le merchandising de la boutique
+                                    <br/>Gestion du personnel
                                 </p>
                             </div>
                         </div>
@@ -190,9 +205,11 @@
                         </div>
                         <div class="annee">
                             <p>
-                                De 2010 à 2012
-                                <br />
-                                Paris
+                                <strong>
+                                    De 2010 à 2012
+                                    <br />
+                                    Paris
+                                </strong>
                             </p>
                         </div>
                         <div class="etablissement">
@@ -200,7 +217,9 @@
                             <h6>Responsable adjoint</h6>
                             <div class="taches">
                                 <p>
-                                    Ante sumenda iis novit loquimur vel habeat qui proxime sunt si vitii exempla si et quos quidem res nihil sunt aut habeat eorum aut vita sed et habeat Ex si.
+                                    Accueillir, conseiller et fidéliser la clientele
+                                    <br />Effectuer le merchandising de la boutique
+                                    <br />Gestion du personnel
                                 </p>
                             </div>
                         </div>
@@ -213,9 +232,11 @@
                         </div>
                         <div class="annee">
                             <p>
-                                De 2009 à 2010
-                                <br />
-                                Australie
+                                <strong>
+                                    De 2009 à 2010
+                                    <br />
+                                    Australie
+                                </strong>
                             </p>
                         </div>
                         <div class="etablissement">
@@ -223,7 +244,8 @@
                             <h6>Cours d'anglais & différents jobs </h6>
                             <div class="taches">
                                 <p>
-                                    Ante sumenda iis novit loquimur vel habeat qui proxime sunt si vitii exempla si et quos quidem res nihil sunt aut habeat eorum aut vita sed et habeat Ex si.
+                                    Séjour en Australie de 10 mois en "working holiday".
+                                    <br/>Différents jobs effectués dans le secteur de la restauration et plusieurs emplois saisonniers (Fruit Picking).
                                 </p>
                             </div>
                         </div>
@@ -235,7 +257,7 @@
                     </i>
                     RECOMMANDATIONS
                 </h3>
-                <section id="recommandation">
+                <div id="recommandation">
                     <div class="recommandation_1">
 
                         <p><strong>Maxime Dupond</strong></p>
@@ -251,7 +273,7 @@
                         <p><strong>Téléphone :</strong> 06.25.25.25.25</p>
                         <p><strong>E-mail :</strong> name@email.com</p>
                     </div>
-                </section>
+                </div>
             </div>
         </main>
     </div>
