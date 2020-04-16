@@ -2,7 +2,7 @@
 
 BIENVENUE !!!
 
-Ceci est mon CV  datant de Avril 2020: 
+Ceci est mon CV (datant de avril 2020) : 
 
 https://loic91.github.io/CV_Loic/
 
